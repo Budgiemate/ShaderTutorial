@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
         if (coinCount < 1)
         {
             //game over scene
-            SceneManager.LoadScene("Scenes/GameOverScene");
+            SceneManager.LoadScene("Scenes/GameOver");
         }
         //if movement keys pressed
         if (Input.GetKey(KeyCode.W))
